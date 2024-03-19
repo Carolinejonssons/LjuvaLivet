@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ljuva livet är en dejtingsite för singlar som vill hitta kärleken">
+    <meta name="keywords" content="Dejta, kärlek, dejting,partner, livspartner, hitta  kärlek, börja dejta, hitta partner">
+    <meta name="author" content="Ljuva livet, Caroline Jönsson">
+    <title>Mina Preferenser</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="buildMenu()">
+    <header class="pageheader">
+   
+    <div class="container">
+        <img class="bildstart" src="images/photo-1606075920885-60eb44e4f138.avif" alt="Headerbild">
+        <div class="header-text">Ljuva livet</div>
+      
+    </div>
+
+
+    <ul id="menu">
+    <li>
+        <a href="index.html">Startsida</a>
+    </li>
+    <li> 
+        <a href="beratta.html">Berätta om dig själv</a>
+    </li>
+    <li>
+        <a href="chatt.html">Chatt</a>
+    </li>
+
+    <li>
+        <a href="preferens.html">Preferenser</a>
+    </li>
+    <li>
+        <a href="flirt.html">Mina matchningar</a>
+
+    </li>
+    
+   <li>
+        <a href="registrera.html">Registrera dig</a>
+         </li>
+    <li>
+
+        <a href="loggain.html">Logga in</a>
+    </li>
+    
+</ul>
+
+<div class="container">
+    <input type="text" id="searchInput" placeholder="Sök här...">
+    <button id="searchButton">Sök</button>
+</div>
+</header>
+
+<h2>Preferenslista</h2>
+
+<form action="#" method="POST" class="preference-form">
+    <label for="location" class="form-label">Stad?</label>
+    <input type="text" id="location" name="location" class="form-input"><br>
+
+    <label for="hairColor" class="form-label">Hårfärg:</label>
+    <select id="hairColor" name="hairColor" class="form-select">
+        <option value="Blond">Blond</option>
+        <option value="Brunett">Brunett</option>
+        <option value="Rödhårig">Rödhårig</option>
+        <option value="Svart">Svart</option>
+        <option value="Grå">Grå</option>
+        <option value="Annat">Annat</option>
+    </select><br>
+
+    <label for="eyeColor" class="form-label">Ögonfärg:</label>
+    <select id="eyeColor" name="eyeColor" class="form-select">
+        <option value="Blå">Blå</option>
+        <option value="Brun">Brun</option>
+        <option value="Grön">Grön</option>
+        <option value="Hazel">Hazel</option>
+        <option value="Annat">Annat</option>
+    </select><br>
+
+    <label for="gender" class="form-label">Kön:</label>
+    <select id="gender" name="gender" class="form-select">
+        <option value="Man">Man</option>
+        <option value="Kvinna">Kvinna</option>
+        <option value="Båda">Båda</option>
+        <option value="Icke benär">Icke benär</option>
+
+    <label for="traits" class="form-label">Personlighetsdrag:</label>
+    <input type="text" id="traits" name="traits" class="form-input"><br>
+
+    <label for="occupation" class="form-label">Yrke:</label>
+    <input type="text" id="occupation" name="occupation" class="form-input"><br>
+
+    <label for="hobby" class="form-label">Hobby:</label>
+    <input type="text" id="hobby" name="hobby" class="form-input"><br>
+
+    <label for="age" class="form-label">Ålder:</label>
+    <input type="number" id="age" name="age" min="18" max="99" class="form-input"><br>
+    
+    <label for="age">Ålder:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="height" class="form-label">Längd (cm):</label>
+    <input type="number" id="height" name="height" min="100" max="300" class="form-input"><br>
+
+    <label for="extraPreferences" class="form-label">Extra preferenser:</label><br>
+    <textarea id="extraPreferences" name="extraPreferences" rows="4" cols="50" class="form-textarea"></textarea><br>
+
+    <button type="submit" class="form-button">Skicka</button>
+</form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Kontaktinformation</h3>
+                <p>Adress: Tomtebodavägen 3B, Stockholm 129 57</p>
+                <p>Telefon: 123-456-789</p>
+                <p>E-post: info@ljuvalivet.com</p>
+            </div>
+            <div class="legal-info">
+                <h3>Villkor</h3>
+                <p>Medlemsvillkor</p>
+                <p>Personuppgiftspolicy</p>
+                <p> Cookie policy</p>
+            </div>
+        
+            
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
