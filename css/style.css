@@ -318,11 +318,6 @@ body {
 }
 
 
-.starttext{
-    text-align: center;
-}
-
-
 .registerbutton {
     padding: 2%;
     color: #fff;
@@ -713,4 +708,27 @@ body {
     margin: 0 20px;
     width: 150px;
     margin-left: 500px;
+}
+
+.flirttext{
+margin-left: 80px;
+}
+
+.flirttextt{
+    margin-left: 500px;
+}
+
+.textstart{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.starttext{
+    text-align: center;
+    font-size: 24px;
+}
+
+.about{
+    text-align: center;
+    font-size: 24px; 
 }
